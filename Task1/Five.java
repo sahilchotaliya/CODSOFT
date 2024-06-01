@@ -14,10 +14,10 @@ public class Five {
         int randomNumber = random.nextInt(max - min + 1) + min;
 
         int userGuess;
-        int attempts = 0; // Initialize the attempts counter
+        int attempts = 0;
 
         while (true) {
-            attempts++; // Increment the attempts counter
+            attempts++;
 
             System.out.println("Attempt #" + attempts);
             System.out.println("Guess the number between " + min + " and " + max + ": ");
